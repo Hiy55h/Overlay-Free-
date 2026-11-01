@@ -1,0 +1,17 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.hiy55h.overlayfree'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.hiy55h.overlayfree'
+        minSdk 26
+        targetSdk 30
+        versionCode 1
+        versionName '0.1.0'
+    }
+}
